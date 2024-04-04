@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color:white;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  } 
+
+.banner{
+    text-align: justify;
+    flex-wrap: wrap;
+    height: 550px;
+    width: 1200px;
+    background-color: #ceaaf3;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.sec1left, .sec1right {
+    flex: 1;
+}
+
+.sec1left {
+    max-width: 40%;
+    padding-left: 30px; /* Optional spacing between sections */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.sec1right {
+    max-width: 60%;
+    padding-left: 1px; /* Optional spacing between sections */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.sec1right img {
+    height: auto;
+    width: 110%; /* Ensure the image fills its container */
+}
+
+/* Section 2 begins here */
+
+#section2 {
+    display: grid;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 20px;
+    background-image: url('2.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
+    background-size: cover; /* Ensure the background image covers the entire element */
+    background-position: center; /* Center the background image */
+  } 
+
+.grid-container {
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create a 2-column grid */
+    grid-gap: 200px;/* Add some gap between grid items */
+    grid-row-gap: 10px;
+}
+
+.grid-item{
+    background-color: #5a2828; /* Background color of grid items */
+    padding: 20px;
+    text-align: center;
+}
+
+#section3 {
+    background-color: #ffff;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
+
+.heading3 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #8c34b6;
+    margin-bottom: 20px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.grid-box img {
+    max-width: 15%;
+    height: auto;
+}
